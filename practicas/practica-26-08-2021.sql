@@ -3,14 +3,14 @@ create database star_wars;
 use star_wars;
 
 
-create table people (
+/*create table people (
 	id int primary key auto_increment,
     name varchar(50),
     mass int,
     hair_color varchar(20),
     eye_color varchar(20),
     gender enum("female","male","other")
-);
+);*/
 
 
 select * from people;
